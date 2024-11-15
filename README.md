@@ -21,19 +21,24 @@ main.js: Contém o JavaScript necessário para alternar entre as abas e exibir o
 🚀 Executando o Projeto
 
 Clone o repositório ou baixe o código.
+
 Abra o arquivo index.html em um navegador para ver o projeto em ação.
 
 📌 Observações e Melhorias Futuras
 
 Responsividade: Embora este projeto não seja responsivo, uma futura melhoria incluiria CSS responsivo para adaptar a interface a diferentes tamanhos de tela.
+
 Estilização Avançada: Adicionar estilos mais detalhados e animações na transição de abas pode tornar o visual mais atraente.
+
 Melhorias nas Funções: Implementar JavaScript mais dinâmico, como animações nas abas ou transições mais suaves.
 
 
 🛠️ Tecnologias Utilizadas
 
 HTML: Para a estruturação do conteúdo.
+
 CSS: Para a estilização básica do layout.
+
 JavaScript: Para o controle das abas e exibição dinâmica do conteúdo.
 
 📖 Sobre
