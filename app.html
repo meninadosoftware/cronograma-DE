@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cronograma de disciplinas espirituais</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" media="screen" href="estilo.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="menu">
+      <hr />
+      <hr />
+      <div>
+        <h3 class="title-letter">Cronograma de disciplinas espirituais</h3>
+      </div>
+      <hr />
+      <hr />
+
+      <button class="tablink" onclick="openPage('BibleTime', this, ' #87CEFA')">
+        Tempo de Bíblia
+      </button>
+      <button
+        class="tablink"
+        onclick="openPage('PrayTime', this, ' #87CEFA')"
+        id="defaultOpen"
+      >
+        Tempo de oração
+      </button>
+      <button class="tablink" onclick="openPage('Spiritual_fasting', this, ' #87CEFA')">
+        Jejum Espiritual
+      </button>
+
+      <div id="BibleTime" class="tabcontent">
+        <h3>Tempo de Bíblia</h3>
+        <p>Aqui você pode organizar seu tempo de leitura bíblica.</p>
+
+        <div class="container">
+          <h1>Lista de livros da Bíblia</h1>
+          <input type="text" id="new-book" placeholder="Adicione o livro da Bíblia">
+         
+          <input type="text" id="days" placeholder="Adicione em quantos dias você leu o livro">
+         
+          <button id="add-books">Adicionar</button>
+          <ul id="task-books"></ul>
+          
+      </div>
+
+      </div>
+
+      <div id="PrayTime" class="tabcontent">
+        <h3>Oração</h3>
+        <p>Aqui você pode escrever um tema para sua oração!</p>
+        <div class="container">
+          <h1>Orações</h1>
+          <input type="text" id="new-pray" placeholder="Tema de oração">
+         
+          <input type="text" id="new-time" placeholder="Tempo dedicado">
+         
+          <button id="add-pray">Adicionar</button>
+          <ul id="task-pray"></ul>
+          
+      </div>
+      </div>
+
+      <div id="Spiritual_fasting" class="tabcontent">
+        <h3>Jejum Espiritual</h3>
+        <p>Aqui você pode organizar seus horários e dias de jejuns espirituais.</p>
+        <div class="container">
+          <h1>Jejuns</h1>
+          <input type="text" id="new-fasting" placeholder="Adicione a meta total de jejuns por mês">
+         
+          <input type="text" id="new-hours" placeholder="Quantidade de horas de jejum">
+         
+          <button id="add-fasting">Adicionar</button>
+          <ul id="task-fasting"></ul>
+          
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

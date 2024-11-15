@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 23px;
+  color: white;
+  background-color: rgb(0, 119, 255);
+}
+
+/* Menu container */
+.menu {
+  background-color:rgb(0, 119, 255)    ;
+  overflow: hidden;
+  padding: 0px 0px;
+  width: 100%;
+  height: auto;
+}
+
+.menu ul {
+  justify-content: space-around;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+
+/* Links do menu */
+.menu ul li {
+  display: inline;
+  margin: 0 15px;/* Espaçamento entre os itens */
+  background-color: #28a745;
+}
+
+.menu ul li a {
+  color: white; /* Cor do texto */
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  transition: background-color 0.3s;
+}
+
+/* Efeito hover */
+.menu ul li a:hover {
+  background-color: #87CEFA ; /* Azul um pouco mais escuro */
+  border-radius: 5px;
+}
+
+.active {
+  background-color:  #87CEFA ;
+}
+/*# sourceMappingURL=estilo.css.map */
+
+.title-letter {
+  padding: 24px 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+  /* Style tab links */
+  .tablink {
+    background-color: #87CEFA ;
+    color: #2b1b83;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color:  #87CEFA ;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 25px 20px;
+    height: 100%;
+  }
+  
+  #BibleTime {background-color: rgb(0, 119, 255) ;}
+  #PrayTime {background-color: rgb(0, 119, 255) ;}
+  #Spiritual_fasting {background-color: rgb(0, 119, 255);}
+ 
+  .container {
+    text-align: center;
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 70px
+    
+}
+
+h1 {
+  color: #2b1b83;
+  font-size: 17px;
+  padding: 20px;
+  text-align: left;
+ 
+}
+button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+}
+#add-books {
+  margin-top: 30px;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color:  rgb(0, 119, 255);
+}
+
+.delete {
+    color: #dc3545;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete:hover {
+    color: #c82333;
+}

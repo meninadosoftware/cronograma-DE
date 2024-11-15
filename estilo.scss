@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 23px ;
+    color: white;
+  }
+
+  /* Menu container */
+  .menu {
+    background-color:rgb(0, 119, 255);
+    overflow: hidden;
+    padding: 10px 0;
+
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* Links do menu */
+  .menu ul li {
+    display: inline;
+    margin: 0 15px; /* Espaçamento entre os itens */
+  }
+
+  .menu ul li a {
+    color: #333; /* Cor do texto */
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+
+  /* Efeito hover */
+  .menu ul li a:hover {
+    background-color: rgb(0, 119, 255); /* Azul um pouco mais escuro */
+    border-radius: 5px;
+  }
+
+  /* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
